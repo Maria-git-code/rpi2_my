@@ -104,7 +104,7 @@ function nextImageNumber(imageNumber) {
 }
 
 function updateSlideshowImage(imageNumber) {
-    const value = "images/" + imageNumber + ".jpg";
+    const value = "rpi2_my/images/" + imageNumber + ".jpg";
     document.getElementById("slideshow-image").setAttribute("src", value);
     document.body.style.backgroundImage = "url('" + value + "')";
 }
