@@ -20,7 +20,7 @@ window.onload = function () {
     } else {
         isActive = false;
     }
-    //let indicatorsDiv = document.getElementById("indicators-div-0");
+    let indicatorsDiv = document.getElementById("indicators-div-0");
     
     updateSlideshowImage(imageNumber);
     updateSlideshowIndicator(-1, imageNumber);
@@ -110,10 +110,10 @@ function updateSlideshowImage(imageNumber) {
 function updateSlideshowIndicator(i, j) {
     if (i !== -1) {
         let oldIndicator = document.getElementById("slideshow-indicator-" + i);
-        oldIndicator.style.backgroundColor = "white";
+        oldIndicator.style.color = "white";
     }
     let newIndicator = document.getElementById("slideshow-indicator-" + j);
-    newIndicator.style.backgroundColor = "gray";
+    newIndicator.style.color = "gray";
 }
 
 function toggle() {

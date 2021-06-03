@@ -27,21 +27,14 @@ body {
     margin: 0 20px 0 20px;
 }
 
-.indicator-box {
-    
-}
 
-#indicators-div {
-    margin-bottom: 10px;
-    height: 30px;
-}
 
 .slideshow-indicator {
     height: 15px;
     width: 15px;
     background-color: white;
     border-radius: 50%;
-    display:inline-flex;
+    display:inline-block;
     cursor: pointer;
 }
 
