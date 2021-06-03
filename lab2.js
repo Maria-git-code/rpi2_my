@@ -20,10 +20,8 @@ window.onload = function () {
     } else {
         isActive = false;
     }
-    let indicatorsDiv = document.getElementById("indicators-div");
-    for (let i = 0; i < IMAGES_NUMBER; i++) {
-        indicatorsDiv.innerHTML += "<span id='slideshow-indicator-" + i + "' class='slideshow-indicator' onclick='setSlideshowImage(" + i + ")'></span>";
-    }
+    //let indicatorsDiv = document.getElementById("indicators-div-0");
+    
     updateSlideshowImage(imageNumber);
     updateSlideshowIndicator(-1, imageNumber);
     if (isActive) {
